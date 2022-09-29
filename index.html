@@ -5,13 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MB Lions, Tigers, and Bears! Oh My!</title>
     <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Dawgz</h1>
+    <div class="app">
+        <div class="header">
+            <h1>Choose yo animal</h1>
+            <div id="animal">
+                <select id="list" onchange = "getAnimal()">
+                    <option value="0">Choose yo animal</option>
+                    <option value="d">Dog</option>
+                    <option value="c">Cat</option>
+                </select>
+            </div>
+        </div>
+        <div class="slideshow" id="slideshow">
 
-    <div id="breed">
-    </div>
-
-    
+        </div>
+    </div>   
 </body>
 </html>
