@@ -34,5 +34,4 @@ body {
     background-position: center center;
     opacity:1;
     transform:scale(1);
-    transition: all .9s ease-out;
 }

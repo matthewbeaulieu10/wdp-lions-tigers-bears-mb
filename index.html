@@ -7,15 +7,19 @@
     <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
 </head>
+<!--Same HTML Doc structure as Brad Schiff in his tutorial-->
 <body>
     <div class="app">
         <div class="header">
             <h1>Choose yo animal</h1>
             <div id="animal">
-                <select id="list" onchange = "getAnimal()">
+                <!--Needed a hard coded drop down menu because 
+                was working with less functional APIs-->
+                <select id="list" onclick = "getAnimal()">
                     <option value="0">Choose yo animal</option>
                     <option value="d">Dog</option>
                     <option value="c">Cat</option>
+                    <option value="f">Fox</option>
                 </select>
             </div>
         </div>
